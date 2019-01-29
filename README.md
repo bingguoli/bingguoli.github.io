@@ -1,6 +1,10 @@
-## 个人履历
+# 项目经历
+## 深度学习方向
+### 腾讯车联网 - AR导航预研项目
 
-## Welcome
+## LBS算法方向
+
+## 移动客户端方向
 
 You can use the [editor on GitHub](https://github.com/bingguoli/bingguoli.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
