@@ -1,12 +1,12 @@
 # main links links
 main:
-  - title: "Employment"
+  - title: "工作经历"
     url: /employment/
 
-  - title: "Publications"
-    url: /publications/
+ # - title: "Publications"
+ #   url: /publications/
 
-  - title: "Projects"
+  - title: "项目经历"
     url: /projects/
 
 #  - title: "Talks"
@@ -18,17 +18,14 @@ main:
 #  - title: "teaching"
 #    url: /teaching/
 
-  - title: "Photo"
-    url: https://blog.chaoyanghe.com/portfolio/
+#  - title: "Photo"
+#    url: https://blog.chaoyanghe.com/portfolio/
     
-  - title: "CV"
+  - title: "个人简历"
     url: /cv/
 
-  - title: "Startup/Misc."
-    url: /startup/
-
-#  - title: "Contacts"
-#    url: /markdown/
+#  - title: "Startup/Misc."
+#    url: /startup/
 
   - title: "Contacts"
     url: /contacts/
