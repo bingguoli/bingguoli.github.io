@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Chaoyang He"
+title                    : "Bingguo Li"
 title_separator          : "-"
-name                     : &name "Chaoyang He's Personal Website"
-description              : &description "Ph.D. student in Computer Science at USC, former R&D Team Manager and Software Engineer at Tencent, Baidu, and Huawei."
-url                      : https://chaoyanghe.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Bingguo Li's Personal Website"
+description              : &description "R&D Team Manager and Software Engineer at Tencent, Baidu."
+url                      : https://bingguoli.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "chaoyanghe/chaoyanghe.github.io"
+repository               : "bingguoli/bingguoli.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -80,40 +80,40 @@ analytics:
 
 # Site Author
 author:
-  name             : "Chaoyang He"
+  name             : "Bingguo Li"
   avatar           : "profile.png"
-  bio              : "Ph.D. student in Computer Science at USC, former R&D Team Manager and Software Engineer at Tencent, Baidu, and Huawei."
-  location         : "Los Angeles, California"
+  bio              : "R&D Team Manager and Software Engineer at Tencent, Baidu."
+  location         : "Shenzhen, Guangdong"
   employer         :
   googlescholar    :
-  email            : "me@chaoyanghe.com"
+  email            :  #"me@bingguoli.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         : "chaoyanghe.usc"
+  facebook         : 
   foursquare       :
   github           :
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : "hechaoyang"
+  linkedin         : 
   orcid            :
   pinterest        :
   soundcloud       :
   stackoverflow    :
   steam            :
   tumblr           :
-  twitter          : "chaoyanghe"
+  twitter          : 
   vine             :
   weibo            :
   xing             :
   youtube          :
   wikipedia        :
-  fanfou           : "iamtt"
+  fanfou           :
 
 
 # Reading Files
