@@ -8,21 +8,10 @@ redirect_from:
 ---
 
 * **Personal Email**:
-    me [at=@] chaoyanghe.com
-
-* **Official Email**:
-    chaoyang.he [at=@] usc.edu
-
-* **Cell-Phone(US)**:
-    +1 (323)336-4026
-
+    me [at=@] bingguoli.com
     
 * **Cell-Phone(CN)**:
-    +86 18718862020
+    +86 13418630663
 
-* **WeChat**: TTHarry   
+* **WeChat**: bingguoli   
     <img src="../images/wechat_chaoyanghe.png" width="200">
-
-* **Office Address**:
-    Ronald Tutor Hall(RTH) 323,
-    3710 McClintock Ave, Los Angeles, CA 90089, USA
