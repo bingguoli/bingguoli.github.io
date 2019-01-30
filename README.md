@@ -1,43 +1,101 @@
-# 项目经历
 ## 深度学习方向
-### 腾讯车联网 - AR导航预研项目
+### 腾讯车联网 - 驾车AR导航项目
+AR导航项目是车联网与腾讯优图实验室合作的前瞻预研项目。基于驾车场景的视觉识别AI算法能力，结合高精度地图数据，精准定位用户驾驶位置，将导航诱导指向投射挡风玻璃上。以达到虚拟数据与真实世界的结合，使得驾车导航产品体验的极大突破。
+
+**关键点：** 深度学习、SLAM、AR渲染
+
+**主要工作：**
+* 阶段一：车道线级定位能力构建
+* 阶段二：精细化体验（诱导+底图）
+* 阶段三：AR驾车导航
+
 
 ## LBS算法方向
+### 腾讯车联网 - 惯性导航项目
+惯性导航是驾车导航的核心技术功能，一方面影响产品体验，另一方面是前装项目准入要求，基本所有前装项目都需要惯导。惯导技术门槛高，高德等传统图商已建立起技术门槛。我们需要攻克该关键技术，形成相应业务护城河。
+
+**关键点：** 姿态计算、航位推算、滤波融合、场景识别、工具平台
+
+**主要工作：**
+* 整体框架搭建。惯导技术框架主要包括RIP模块、匹配模块和融合模块；
+* 工具平台建设。搭建自动化的策略迭代平台，以提升算法策略迭代效率；
+* 关键技术点攻坚。包括误差消除、主辅路识别和高架识别等问题；
+
+**项目产出：**
+* 达到众泰QNX/广汽A06等前装项目测试要求，计划投入量产；
+* 申请了2个技术专利；
+
+### 腾讯车联网 - 引擎通用SDK项目
+在前装系统平台上，主流平台主要有QNX、Android、Linux和WinCE。QNX平台占有60%市场，是前装项目的重要平台，我们启动前装众泰QNX项目。通过引入合作研发团队，剥离出平台界面开发适配工作给合作研发团队，我们聚焦于提供跨平台引擎SDK能力。
+
+**关键点：** 跨平台、通用SDK能力
+
+**主要工作：**
+* 引擎移植，主要包括基础库和模块层；
+* 标准化SDK，引擎SDK接口文档和Demo App；
+
+**项目产出：**
+* 完成引擎SDK跨平台能力迁移；
+* 具备切入QNX平台市场的能力，支持众泰QNX项目落地；
+
+### 腾讯车联网 - 定位优化项目
+导航产品在定位偏航功能上主要有两个指标，分别是：偏航灵敏度和误偏航率。两个指标维度互相制约，需要找到最佳平衡点。腾讯驾车导航产品在这些指标上差于竞品，需要短时间内快速追⻬齐竞品。
+
+**关键点：** 匹配算法、模型优化、效率提升
+
+**主要工作：**
+* 模型验证。通过构建自动化工具平台，提升策略模型验证效率；
+* 问题发现。主要实现自动化误偏航问题识别和可视化分析结果；
+* 策略优化。一方面实现在离线融合，使得两种模式策略归一；另一方面实现匹配森林，以提升偏航体验。
+
+**项目产出：**
+* 误偏航率从 14% 降到 4%；
+* 偏航响应时间从 15s 降到 6s；
+* 申请了4个技术专利；
+
+### 百度手机导航 - 引擎核心指标优化项目
+导航引擎核心指标包括：诱导、算路、定位匹配等，其性能表现将直接影响产品用户体验。作为核心指标项⽬负责人，带领5人团队(3个RD+2个QA)分别针对各个指标维度，量化与竞品差距，提出相应的技术解决方案。通过迭代优化，整体提升了引擎核心指标，缩小与竞品差距。
+
+**关键点：** LBS算法优化、策略模板化、云端干预
+
+**主要工作：**
+* 参与诱导播报模板化策略开发，云端通过模板控制客户端播报内容;
+* 建⽴云端干预机制，快速响应用户反馈的诱导播报badcase;
+* 对原有匹配策略梳理，提出基于GPS信息质量、导航匹配上下文、局部路⽹等优化方案提高匹配性能; 
+* 建立GPS轨迹库，为匹配策略性能评估提供足够的GPS数据。
+
+**项目产出：**
+* 通过诱导优化项目，百度导航产品在诱导播报体验上与竞品持平;
+* 通过版本的策略迭代，⼤大提⾼导航产品在匹配⽅面性能表现，缩小与竞品差距; 
+* 提炼匹配策略优化方案，完成多个相关专利申请。
 
 ## 移动客户端方向
 
-You can use the [editor on GitHub](https://github.com/bingguoli/bingguoli.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### 腾讯车联网 - Android客户端框架重构项目
+业务项目主要分为后装和前装项目，在后装上我们需要提供标准化版本，可以快速切入市场；而在前装⼜需要能够灵活支持不同层次的定制。客户端框架需清晰合理，能快速分离出不同粒度的SDK，以支持⻋联网业务发展。
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+**关键点：** Android、架构重构、可配置化
 
-### Markdown
+**主要工作：**
+结合灵活性和可扩展性，主要将Android客户端分为三层：
+* ⾸先是Business SDK，基于引擎SDK的API接口能力，封装核心业务逻辑，可以支持深度定制开发；
+* 其次是UI-KIT SDK，在Business SDK基础上，基于MVP模式封装导航业务UI框架，⽀持轻度定制项目； 
+* 再次是Config层，提供了渠道适配和定制配置能力，同时开放OpenAPI接口，适合后装开发；
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+**项目产出：**
+* 架构层面，代码结构分离，保证引擎和导航基础能力共性; 
+* 业务层面，提供可扩展的研发体系;
+* SDK标准化，提供标准化API和接口⽂档;
 
-```markdown
-Syntax highlighted code block
+### 百度手机导航 - iOS导航产品项目
+全程开发百度iOS版产品，参与导航上层架构重构，涉及到各个模块解耦和有限状态机设计。独立负责多个⼦模块开发，包括离线资源数据下载模块、导航诱导TTS语⾳播报、地图选点界⾯等。
 
-# Header 1
-## Header 2
-### Header 3
+**关键点：** iOS、自动化测试
 
-- Bulleted
-- List
+**主要工作：**
+* 负责导航iOS平台测试⼯具⼦项目管理工作，协调2个RD短时间内搭建起测试工具平台；
+* 负责测试工具平台整体设计、Monkey自动化集成、导航压⼒测试等开发；
 
-1. Numbered
-2. List
+**项目产出：**
+* 产出iOS产品压力测试自动化解决方案iMonkey，并申请相关专利。
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/bingguoli/bingguoli.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
