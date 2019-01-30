@@ -12,8 +12,8 @@ main:
 #  - title: "Talks"
 #    url: /talks/
 
-  - title: "Advising"
-    url: /advising/
+#  - title: "Advising"
+#    url: /advising/
 
 #  - title: "teaching"
 #    url: /teaching/
@@ -27,5 +27,5 @@ main:
 #  - title: "Startup/Misc."
 #    url: /startup/
 
-  - title: "Contacts"
+  - title: "联系方式"
     url: /contacts/
