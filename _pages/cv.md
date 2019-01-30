@@ -9,4 +9,4 @@ redirect_from:
 
 {% include base_path %}
 Please email me to get my latest CV.  
-Email: me [at=@] chaoyanghe.com
+Email: me [at=@] bingguoli.com
