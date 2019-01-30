@@ -1,0 +1,34 @@
+# main links links
+main:
+  - title: "Employment"
+    url: /employment/
+
+  - title: "Publications"
+    url: /publications/
+
+  - title: "Projects"
+    url: /projects/
+
+#  - title: "Talks"
+#    url: /talks/
+
+  - title: "Advising"
+    url: /advising/
+
+#  - title: "teaching"
+#    url: /teaching/
+
+  - title: "Photo"
+    url: https://blog.chaoyanghe.com/portfolio/
+    
+  - title: "CV"
+    url: /cv/
+
+  - title: "Startup/Misc."
+    url: /startup/
+
+#  - title: "Contacts"
+#    url: /markdown/
+
+  - title: "Contacts"
+    url: /contacts/
