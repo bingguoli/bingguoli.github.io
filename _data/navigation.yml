@@ -1,13 +1,13 @@
 # main links links
 main:
   - title: "工作经历"
-    url: /employment/
+    url: /employment-test/
 
  # - title: "Publications"
  #   url: /publications/
 
   - title: "项目经历"
-    url: /projects/
+    url: /projects-test/
 
 #  - title: "Talks"
 #    url: /talks/
@@ -19,10 +19,10 @@ main:
 #    url: /teaching/
     
   - title: "个人简历"
-    url: /cv/
+    url: /cv-test/
 
 #  - title: "Startup/Misc."
 #    url: /startup/
 
   - title: "联系方式"
-    url: /contacts/
+    url: /contacts-test/
