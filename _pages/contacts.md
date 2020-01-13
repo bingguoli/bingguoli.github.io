@@ -14,4 +14,3 @@ redirect_from:
     +86 13418630663
 
 * **WeChat**: bingguoli   
-    <img src="../images/wechat_chaoyanghe.png" width="200">
